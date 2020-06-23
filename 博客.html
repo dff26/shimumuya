@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	<div id="mmm">
+	<embed src="2.mp3" hidden="true" autostart="true" loop="true"/>
+	</div>	
+	
+		<title></title>
+	<style>
+	body{
+	
+	}
+	/*导航部分*/	
+	#nav{
+	background:#dec032;
+	width:100%;
+	height:50px;
+	margin-top:-20px;
+	}	
+	#nav ul li{
+	list-style: none;	
+	}	
+	#nav ul li a{
+	text-decoration: none;	
+	float: left;
+	margin-left:50px;
+	margin-top:10px;
+	color:#000000;
+	}
+	#nav p{
+	position: absolute;	
+	margin-left:700px;
+	margin-top:12px;
+	}
+
+	/*导航部分*/
+	#demo h1{
+	margin-left:320px;
+	font-size: 20px;	
+	}
+	
+	/*背景图片部分*/
+	#zz img{
+	width:100%;
+	height:1000px;	
+	}
+	
+	
+		/*头像旋转部分*/
+	#ww img{
+	position: absolute;	
+	margin-left:720px;
+	margin-top:-650px;
+	border-radius: 100%;
+	-webkit-animation:rotateImg 2s linear infinite;
+	}
+	#ww img:hover{
+	-webkit-transform: rotateZ(360deg);
+	    -moz-transform: rotateZ(360deg);
+	    -o-transform: rotateZ(360deg);
+	    -ms-transform: rotateZ(360deg);
+	    transform: rotateZ(360deg);	
+	}
+	@keyframes rotateImg {
+	  0% {transform : rotate(0deg);}
+	  100% {transform : rotate(360deg);}
+	}
+	
+	@-webkit-keyframes rotateImg {
+	    0%{-webkit-transform : rotate(0deg);}
+	  100%{-webkit-transform : rotate(360deg);}
+	}
+	
+
+	/*昵称部分*/
+	#ww p{
+	position: absolute;
+	margin-left:710px;
+	margin-top: -540px;	
+	color:#FFFDEF;
+	}
+	#ww h4{
+	margin-left:630px;
+	position: absolute;
+	margin-top:-510px;
+	color: #FFFDEF;	
+	} 
+	
+	/*箭头下滑*/
+.footer_btn{text-align:center;line-height:50px;} 
+    @keyframes bounce-down {
+     25% {transform: translateY(-10px);}
+      50%{transform: translateY(0);}
+     75% {transform: translateY(3px);}
+     100% {transform: translateY(0);}
+     }
+     .animate-bounce-down{ -webkit-animation: bounce-down 5s 
+	 linear infinite;animation: bounce-down 1s linear infinite;
+    }
+     
+    @keyframes bounce-down1 {
+     25% {transform: translateY(-3px);}
+      50%, 100% {transform: translateY(0);}
+      75% {transform: translateY(3px);}
+     }
+     .animate-bounce-down1{display:none;-webkit-animation: 
+	 bounce-down 5s linear infinite;animation: bounce-down 
+	 5s linear infinite;
+     } 
+	 
+	 /*箭头样式*/
+	.footer_btn img{
+	position: absolute;
+	margin-left:-90px;
+	margin-top:-500px;	
+	width:150px;
+	height:100px;
+	}	
+	/*头像部分整块*/
+	#yasuo{
+	margin-top:-100px;	
+	}
+	
+	#bb .mumu{
+	width:300px;
+	height:200px;
+	margin-left:500px;	
+	}
+	
+	#as{
+	margin-left:-180px;	
+	}
+	#bb a:hover img{
+	filter:alpha(Opacity=50);
+	-moz-opacity:0;
+	opacity: 0.5;
+	} 
+	#cc img{
+	position: absolute;	
+	width:300px;
+	height:200px;
+	margin-left:820px;
+	margin-top:-205px;	
+	}
+	#cc a:hover img{
+	filter:alpha(Opacity=50);
+	-moz-opacity:0;
+	opacity: 0.5;
+	} 
+	#xx img{
+	position: absolute;
+	width:300px;
+	height:200px;
+	margin-left:1140px;	
+	margin-top:-200px;
+	}
+	#xx a:hover img{
+	filter:alpha(Opacity=50);
+	-moz-opacity:0;
+	opacity: 0.5;
+	} 
+	
+	#nn p{
+	margin-left:325px;	
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+	#vb{
+	width:950px;
+	height: 400px;
+	background: #F5F2F0;
+	margin-left:320px;
+	border-radius: 30px;	
+	}
+	#vb img{
+	width:450px;
+	height:400px;
+	position: absolute;	
+	border-radius: 0px 30px 30px 0px;	
+	margin-left:500px;	
+	}
+	#vb #bnm{
+	position: absolute;	
+	margin-top:20px;
+	margin-left:30px;	
+	}
+	#vb  #bnm a{	
+	text-decoration: none;
+	color:#000000;
+	font-size:20px;	
+	margin-left:10px;
+	font-weight: bold;
+	}
+	#vb #bnm a:hover{
+	color:orangered;
+	transition:color 0.5s;
+	}
+	#vb #bnm p{
+	margin-left:20px;
+	margin-top:20px;	
+	}
+	#oo p{
+	position:absolute;
+	margin-top:150px;
+	margin-left:40px;
+	}
+	#ll{
+	position: absolute;	
+	width:10px;
+	height:10px;
+	background:#666666;
+	border-radius: 100%;
+	margin-top:300px;
+	margin-left:40px;	
+	}
+	#ll:hover{
+	background:orangered;
+	transition:background-color 0.5s;
+	}
+	#sd{
+	position: absolute;	
+	width:10px;
+	height:10px;
+	background:#666666;
+	border-radius:100%;
+	margin-top:300px;
+	margin-left:60px;
+	}
+	#sd:hover{
+	background:orangered;
+	transition:background-color 0.5s;	
+	}
+	#rr{
+	position: absolute;
+	width:10px;
+	height:10px;
+	background:#666666;
+	border-radius:100%;
+	margin-top:300px;
+	margin-left:80px;	
+	}
+	#rr:hover{
+	background:orangered;
+	transition:background-color 0.5s;		
+	}
+	#fr #no{
+	width:950px;
+	height: 400px;
+	background: #F5F2F0;
+	position: absolute;	
+	margin-top:500px;
+	border-radius:30px;
+	}
+	#fr #no p{
+	margin-left:600px;
+	margin-top:65px;	
+	}
+	#fr #no a{
+	text-decoration: none;
+	color:#000000;	
+	font-size:20px;	
+	margin-left:600px;
+	margin-top:65px;
+	font-weight: bold;	
+	}
+	#fr #no a:hover{
+	color:orangered;
+	transition:color 0.5s;		
+	}
+	#fr #no h4{ 
+	margin-left:600px;
+	margin-top:65px;	
+	}
+	#fr #no img{
+	width:450px;
+	height:400px;
+	margin-top:-360px;
+	margin-left:0px;
+	border-radius: 30px 0px 0px 30px;		
+	}
+	#pic{
+	width:450px;
+	height:400px;
+	}
+	#clockdiv{
+	margin-left:-260px;	
+	width:200px;
+	height:200px;
+	}
+ </style>
+	</style>	
+
+	</head>
+	<body>
+		
+	<!--背景音乐部分-->
+	<embed   iframe frameborder="no" border="0"
+	marginwidth="0" marginheight="0" width=330 
+	height=450 
+	src="//music.163.com/outchain/player?type=0&id=5056103484&auto=1&height=430">
+	</embed>	
+		
+	<!-- 导航部分-->	
+	
+	<!-- 头像部分-->
+<div id="yasuo">	
+<div id="zz">
+<img src="1.jpg">	
+</div>	
+<div  id="ww">
+	<img src="2.jpg">
+	<p>昵称：是沐沐吖</p>
+	<h4>晓看天色暮看云，行也思君，坐也思君</h4>
+	<a href="#"></a>
+</div>
+<div class="footer_btn">
+	<img src=".jpg" alt="" class="animate-bounce-down" />
+	</div> 
+	</div>
+	
+<!-- 导航部分-->	
+<div id="nav">
+	 <ul>
+		 <li><a href="#">首页</a></li>
+		 <li><a href="#">联系</a></li>
+		 <li><a href="#">关于</a></li>
+		 <li><a href="#">文章</a></li>
+	 </ul>
+	<p>欢迎来到是沐沐吖的博客</p>	 
+	</div>		
+	
+	
+<div id="demo">
+<h1> START:DASH</h1>
+</div>
+
+<div id="as">
+<div id="bb">
+<a href="#"><img class="mumu" src="322982.jpg"></a>	
+</div>
+
+<div id="cc">
+<a href="#"><img src="310161.jpg"></a>	
+</div>
+
+<div id="xx">
+<a href="#"><img src="100.jpg"></a>	
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<div id="nn">
+<p>Discovery</p>	
+</div>
+<div id="vb">
+<img src="311105.jpg">	
+<div id="bnm">
+<p>发布于 2020-02-14</p>
+<br>
+<a href="#">
+消息队列及常见消息队列介绍</a>	
+</div>
+
+<div id="oo">
+<p>
+消息队列(MQ)概述 消息队列（Message Queue）<br>
+<br>
+是分布式系统中重要的组件，<br><br>其通用的使用场景可以简单地描述为：当不需 …</p>	
+</div>
+<div id="ll">	
+</div>
+
+<div id="sd">
+</div>
+
+<div id="rr">	
+</div>
+
+
+<div id="fr">
+<div id="no">
+<p>发布于 2020-01-09</p>
+<a href="#">Spring事务失效的 8 大原因</a>
+<h4>
+本文采自微信公众号： <br><br>Java技术栈 数据库引擎不支持事务 
+<br>
+<br>
+这里以 MySQL 为例，<br><br>其 MyISAM 引擎是不支持事务操作的，I …</h4>
+<img src="318313.jpg">
+</div>
+</div>
+
+
+
+<script>
+  !function(){
+  
+ function n(n,e,t){
+  
+ return n.getAttribute(e)||t
+  
+ }
+  
+ function e(n){
+  
+ return document.getElementsByTagName(n)
+  
+ }
+  
+ function t(){
+  
+ var t=e("script"),o=t.length,i=t[o-1];
+  
+ return{
+  
+ l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","0,0,0"),n:n(i,"count",99)
+  
+ }
+  
+ }
+  
+ function o(){
+  
+ a=m.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,
+  
+ c=m.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight
+  
+ }
+  
+ function i(){
+  
+ r.clearRect(0,0,a,c);
+  
+ var n,e,t,o,m,l;
+  
+ s.forEach(function(i,x){
+  
+ for(i.x+=i.xa,i.y+=i.ya,i.xa*=i.x>a||i.x<0?-1:1,i.ya*=i.y>c||i.y<0?-1:1,r.fillRect(i.x-.5,i.y-.5,1,1),e=x+1;e<u.length;e++)n=u[e],
+  
+ null!==n.x&&null!==n.y&&(o=i.x-n.x,m=i.y-n.y,
+  
+ l=o*o+m*m,l<n.max&&(n===y&&l>=n.max/2&&(i.x-=.03*o,i.y-=.03*m),  
+ t=(n.max-l)/n.max,r.beginPath(),r.lineWidth=t/2,r.strokeStyle="rgba("+d.c+","+(t+.2)+")",r.moveTo(i.x,i.y),r.lineTo(n.x,n.y),r.stroke()))
+  
+ }),
+ 
+ x(i)
+  
+ }
+  
+ var a,c,u,m=document.createElement("canvas"),
+  
+ d=t(),l="c_n"+d.l,r=m.getContext("2d"),
+x=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||
+  
+ function(n){
+ 
+ window.setTimeout(n,1e3/45)  
+ },
+  
+ w=Math.random,y={x:null,y:null,max:2e4};m.id=l,m.style.cssText="position:fixed;top:0;left:0;z-index:"+d.z+";opacity:"+d.o,e("body")[0].appendChild(m),o(),window.onresize=o,
+  
+ window.onmousemove=function(n){
+  
+ n=n||window.event,y.x=n.clientX,y.y=n.clientY
+  
+ },
+  
+ window.onmouseout=function(){
+  
+ y.x=null,y.y=null
+  
+ };
+  
+ for(var s=[],f=0;d.n>f;f++){
+  
+ var h=w()*a,g=w()*c,v=2*w()-1,p=2*w()-1;s.push({x:h,y:g,xa:v,ya:p,max:6e3})
+  
+ }
+  
+ u=s.concat([y]),
+  
+ setTimeout(function(){i()},100)
+  
+ }();
+  
+ </script>
+
+<!--live2d-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Live2D</title>
+
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/zouwangblog/waifu1.css"/>
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/zouwangblog/flat-ui.min1.css"/>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="waifu" id="waifu">
+<div class="waifu-tips" style="opacity: 1; font-size: 14px"></div>
+<canvas id="live2d" width="300" height="300" class="live2d"></canvas>
+<div class="waifu-tool">
+<span class="fui-home"></span>
+<span class="fui-chat"></span>
+<span class="fui-eye"></span>
+<span class="fui-user"></span>
+<span class="fui-photo"></span>
+<span class="fui-info-circle"></span>
+<span class="fui-cross"></span>
+</div>
+</div>
+<script src="https://blog-static.cnblogs.com/files/zouwangblog/live2d.js"></script>
+<script src="https://blog-static.cnblogs.com/files/zouwangblog/waifu-tips1.js"></script>
+<script type="text/javascript">initModel()</script>
+</body>
+</html>
+<!--live2dend-->
+
+<div id="clockdiv">
+    <canvas id="dom" width="200" height="200">您的浏览器不兼容canvas</canvas>
+</div>
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/zouwangblog/Clock.js"></script>
+
+<script src="https://blog-static.cnblogs.com/files/zouwangblog/mouse-click.js"></script>
+<canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
+
+
+
+
+	</body>
+</html>
